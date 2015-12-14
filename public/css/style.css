@@ -42,16 +42,21 @@ body a:hover{
 }
 .banner1 {
   min-height: 700px;
-  background: url(../images/banner.jpg)no-repeat 0px 0px;
+  background: url(../images/banner3.jpg)no-repeat 0px 0px;
   background-size: cover;
 }
 .banner2 {
   min-height: 700px;
-  background: url(../images/banner1.jpg)no-repeat 0px -114px;
+  background: url(../images/banner2.jpg)no-repeat 0px -114px;
+  background-size: cover;
+}
+.banner3 {
+  min-height: 700px;
+  background: url(../images/banner3.jpg)no-repeat 0px -114px;
   background-size: cover;
 }
 .banner-text {
-  background-color: rgba(20, 185, 213, 0.71);
+  background-color: rgba(32, 99, 24, 0.71);
   width: 17%;
   text-align: center;
   position: absolute;
@@ -1249,6 +1254,9 @@ p.cnt-p {
   background: url(../images/icons.png)no-repeat -50px -2px;
     left: 16%;
 }
+  .banner3 {
+    min-height: 304px;
+  }
 .banner2 {
   min-height: 304px;
 }
